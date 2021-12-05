@@ -15,8 +15,8 @@ public class BookController {
         books=new ArrayList<>();
         books.add(new Book("tytul1", "author1", "9782123456803"));
         books.add(new Book("tytul2", "author2", "9782123456804"));
-        books.add(new Book("tytul3", "author3", "9782123456805"));
-        books.add(new Book("title1", "author4", "9782123456806"));
+        books.add(new Book("tytul3", "author3", "9782123456905"));
+        books.add(new Book("title1", "author4", "9782123456906"));
     }
 
     @GetMapping("/books/nazwa/{nazwa}")
