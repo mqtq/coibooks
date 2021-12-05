@@ -41,4 +41,9 @@ public class BookController {
         return selected;
     }
 
+    @GetMapping("/books")
+    List<Book> allBooks (){
+        return books;
+    }
+
 }
